@@ -3,7 +3,7 @@
 ## Usage
 
 * `bundle install`
-* `rm -f access_log.db && zcat access_log.*.gz > bundle exec ruby parse.rb # time passes`
+* `rm -f access_log.db && zcat access_log.*.gz | bundle exec ruby parse.rb # time passes`
 * `./report.sh # less time passes, reports are created`
 
 And then view the reports in your spreadsheet of choice.
